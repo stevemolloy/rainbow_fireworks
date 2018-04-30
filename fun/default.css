@@ -1,0 +1,228 @@
+/* standard elements */
+* {
+	margin: 0;
+	padding: 0;
+}
+a {
+	color: #36C;
+}
+a:hover {
+	color: #06F;
+}
+body {
+	background: #ffffff;
+	color: #444;
+	font: normal 100% "Lucida Sans Unicode",sans-serif;
+	margin: 0;
+}
+input {
+	color: #555;
+	font: normal 1.1em "Lucida Sans Unicode",sans-serif;
+}
+cite,ul {
+	font-size: 1.0em;
+	padding-bottom: 1.0em;
+}
+p {
+	font-size: 1.0em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+h1 {
+	font-size: 1.4em;
+	margin-bottom: 4px;
+}
+cite {
+	background: url(img/quote.gif) no-repeat;
+	color: #666;
+	display: block;
+	font: normal 1.3em "Lucida Sans Unicode",serif;
+	padding-left: 28px;
+}
+h1 {
+	color: #000000;
+	padding-top: 6px;
+}
+h2 {
+	color: #000000;
+	font-size: 1.0em;
+	padding-top: 0.5em;
+}
+h3 {
+	color: #000000;
+	font-size: 1.0em;
+}
+
+/* misc */
+.clearer {
+	clear: both;
+}
+.code-pre {
+	font-size: 1.0em;
+	background: #000000;
+	color: #ffffff;
+	width: 90%;
+	padding-bottom: 0.5em;
+	padding-top: 0.5em;
+	padding-left: 1.0em;
+	overflow-x:scroll;
+}
+.highlight {
+	color: #ff0000;
+}
+
+/* structure */
+.container {
+	margin: 0 auto;
+	padding-bottom: 6px;
+}
+.header {
+	background: url(/empty-example/QooNet160.png) no-repeat, url(/empty-example/header.jpg) repeat-x
+}
+
+/* title */
+.title h1 {
+	color: #ffffff;
+	font: bold 3em Verdana,sans-serif;
+	height: 150px;
+	line-height: 150px;
+	margin-bottom: 8px;
+	text-align: center;
+}
+
+/* navigation */
+.navigation {
+	margin-bottom: 4px;
+}
+.navigation a {
+	background-color: #4A91C3;
+	color: #FFF;
+	float: left;
+	font: bold 1.2em "Trebuchet MS",sans-serif;
+	padding: 8px 0;
+	width: 20%;
+	border-right: 1px solid #FFF;
+	text-align: center;
+	text-decoration: none;
+}
+.navigation a:hover {
+	background-color: #000;
+	color: #FFF;
+}
+
+/* main */
+.main {
+	background: #ffffff;
+	clear: both;
+	padding: 8px 18px;
+}
+
+/* main left */
+.sidenav h1,.sidenav ul {
+	padding-left: 12px;
+}
+.sidenav {
+	background: #ffffff;
+	border: 1px solid #ffffff;
+	float: left;
+	width: 25%;
+}
+.sidenav h1 {
+	color: #000000;
+	font-size: 1.2em;
+	height: 20px;
+	margin-top: 1.2em;
+}
+.sidenav ul {
+	border-top: 1px solid #ffffff;
+	margin: 0;
+	padding: 0;
+}
+.sidenav li {
+	border: 1px solid #ffffff;
+	border-top: none;
+	list-style: none;
+	margin: 0;
+	font-size: 1.0em;
+}
+.sidenav li a {
+	color: #777;
+	display: block;
+	font-size: 1.0em;
+	padding: 3px 6px 3px 14px;
+	text-decoration: none;
+}
+.sidenav li a:hover {
+	color: #111;
+}
+
+/* content */
+.content {
+	float: right;
+	width: 74%;
+}
+.content .item {
+	padding: 6px 12px;
+	border: 0px solid #EEE;
+	background: #ffffff;
+	margin-bottom: 8px;
+}
+.content .descr {
+	color: #333;
+	margin-bottom: 6px;
+}
+.content li {
+	list-style-type: disk;
+	margin-left: 18px;
+	font-size: 1.0em;
+	padding-top: 3px;
+}
+.content ul {
+	font-size: 1.0em;
+	padding-bottom: 10px;
+}
+.content a {
+	color: #000000;
+	text-decoration: underline;
+}
+.content a:hover {
+	color: #06F;
+	text-decoration: underline;
+}
+
+/* search form */
+form {
+	padding: 0 0 6px 8px;
+}
+.styled {
+	border: 1px solid #DDD;
+	padding: 4px;
+}
+.button {
+	background: url(img/search.gif) no-repeat left bottom;
+	border: none;
+	height: 27px;
+	width: 27px;
+}
+
+/* footer */
+.footer {
+	background: #ffffff;
+	border: 0px solid #EEE;
+	color: #666;
+	font-size: 1.1em;
+	margin: 0 auto;
+	text-align: center;
+	padding: 6px;
+}
+.footer a {
+	color: #000000;
+	text-decoration: underline;
+}
+.footer a:hover {
+	color: #06F;
+	text-decoration: underline;
+}
+.includeText {
+	font: normal 100% "Lucida Sans Unicode",sans-serif;
+}
